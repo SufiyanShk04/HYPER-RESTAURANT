@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HYPER RESTAURANT</title>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Cherry+Cream+Soda&family=Platypi:wght@300;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- NAVIGATION -->
+    <nav>
+        <div class="logo">HYPER RESTAURANT</div>
+        <ul class="menu">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="Menu\menu.html">MENU</a></li>
+            <li><a href="#">ORDER</a></li>
+            <li><a href="#">EVENTS</a></li>
+            <li><a href="Room's\RoomBooking.html">ROOM'S</a></li>
+            <li><a href="#">CONTACT</a></li>
+            
+        </ul>
+        <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <div class="hero">
+        <h1>HYPER</h1>
+        <h2>RESTAURANT</h2>
+    </div>
+
+    <!-- SPECIAL MENU SECTION -->
+    <div class="section">
+        <h3>Special Veg Dishes</h3>
+        <div class="grid">
+            <img src="Photo's\veg1.jpg" alt="Veg Dish">
+            <img src="Photo's\veg2.jpg" alt="Veg Dish">
+        </div>
+    </div>
+
+    <div class="section">
+        <h3>Special Non-Veg Dishes</h3>
+        <div class="grid">
+            <img src="Photo's\N-V-1.jpg" alt="Non-Veg Dish">
+            <img src="Photo's\N-V-2.jpg" alt="Non-Veg Dish">
+        </div>
+    </div>
+
+    <div class="section">
+        <h3>Fresh Juices</h3>
+        <div class="grid">
+            <img src="Photo's\cocktail-7336510.jpg" alt="Juice">
+            <img src="Photo's\J1.jpg" alt="Juice">
+        </div>
+    </div>
+
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>About Us</h4>
+                <ul>
+                    <li><a href="#">Our Story</a></li>
+                    <li><a href="#">Awards</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">HYPER Centre of Learning and Development</a></li>
+                    <li><a href="#">Social Responsibility</a></li>
+                    <li><a href="#">Ministry of Tourism Initiative (India)</a></li>
+                    <li><a href="#">NIDHI</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>More</h4>
+                <ul>
+                    <li><a href="#">HYPER Select</a></li>
+                    <li><a href="#">Gift Card</a></li>
+                    <li><a href="#">The HYPER Concours d’Elegance</a></li>
+                    <li><a href="#">COU COU by Oberoi</a></li>
+                    <li><a href="#">Amadeo by Oberoi</a></li>
+                    <li><a href="#">HYPER Aviation</a></li>
+                    <li><a href="#">Connections Programme</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>News</h4>
+                <ul>
+                    <li><a href="#">Press Room</a></li>
+                    <li><a href="#">Upcoming Hotels</a></li>
+                    <li><a href="#">News and Media</a></li>
+                    <li><a href="#">The Hyper Magazine</a></li>
+                </ul>
+            </div>
+            <div class="footer-section subscribe">
+                <h4>Subscribe</h4>
+                <p>Discover the latest stories and inspirations from our world, right in your inbox.</p>
+                <input type="email" id="email" placeholder="Enter e-mail address">
+                <button onclick="sendOTP()">Submit</button>
+                <div id="otp-section" style="display: none;">
+                    <input type="text" id="otp" placeholder="Enter OTP">
+                    <button onclick="verifyOTP()">Verify OTP</button>
+                </div>
+                <p><a href="#">Manage Reservations</a></p>
+                <div class="social-icons">
+                    <a href="#"><img src="icon-instagram.png" alt="Instagram"></a>
+                    <a href="#"><img src="icon-facebook.png" alt="Facebook"></a>
+                    <a href="#"><img src="icon-youtube.png" alt="YouTube"></a>
+                    <a href="#"><img src="icon-twitter.png" alt="Twitter"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    
+</body>
+</html>
